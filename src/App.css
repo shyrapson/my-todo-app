@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app{
+  background-color:#010409;
+  height: 100vh;
+  color:#fff;
+}
+.navbar{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background:#161B22
+}
+.nav h1{
+       color:#fff;
+       font-weight: bold;
+       margin-top: 8px;
+     
+       
+}
+.todoitems{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  border-bottom:1px solid #ccc;
+  margin-bottom: 5px;
+  height: 40px;
+}
